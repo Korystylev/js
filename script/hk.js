@@ -10,11 +10,11 @@ function calcD(a, b, c) {
 var discr = calcD(a, b, c);
 
 if (discr > 0)    {
-    var x1=(-b+Math.sqrt(discr))/2*a;
-    var x2=(-b-Math.sqrt(discr))/(2*a);
+    let x1=(-b+Math.sqrt(discr))/2*a;
+    let x2=(-b-Math.sqrt(discr))/(2*a);
     alert ('Корни квадратного уравнения: x1='+x1+', x2='+x2+'.');
 }   else if (discr = 0) {
-    var x = (-b)/(2*a);
+    let x = (-b)/(2*a);
     alert ('У этого квадратного уравнения только один корень: '+x+'.');
 }   else if (discr < 0)  {
     alert ('Похоже, дискриминант меньше нуля, корней у этого уравнения нет.');
